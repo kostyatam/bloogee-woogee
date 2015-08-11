@@ -1,0 +1,21 @@
+$font-size: 18px;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font: $font-size Arial;
+	color: #333;
+}
+
+@function em($px, $size: $font-size) {
+	@return $px / $font-size + em;
+}

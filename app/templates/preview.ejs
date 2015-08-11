@@ -1,0 +1,10 @@
+<span id="<%=data.id%>" class="img-editor <%=data.className%> <%= data.src ? '' : 'img-editor_empty'%>">
+	<img class="img-editor__img" src="<%=data.src%>">
+	<span class="js-add img-editor__btn">Add</span>
+	<span class="js-ok img-editor__btn img-editor__btn_ok">Ok</span>
+	<select class="js-selectClass">
+		<% for(var i=0; i<data.extensions.length; i++) {%>
+			<option value="data.extensions[i].alias"><%= data.extensions[i].className %></li>
+		<% } %>
+	</select>
+</span>

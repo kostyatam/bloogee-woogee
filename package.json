@@ -1,0 +1,27 @@
+{
+  "name": "boogie-woogee",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "latest",
+    "css-loader": "^0.9.1",
+    "ejs-loader": "^0.2.1",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "jquery": "^2.1.4",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^0.4.1",
+    "showdown": "latest",
+    "style-loader": "^0.8.3",
+    "to-markdown": "latest",
+    "underscore": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  }
+}

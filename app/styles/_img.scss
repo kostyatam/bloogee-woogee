@@ -1,0 +1,17 @@
+.img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 1em;
+
+	&_position {
+		&_left {
+			float: left;
+			margin-left: -1em;
+		}
+
+		&_right {
+			float: right;
+			margin-right: -1em;
+		}
+	}
+}
